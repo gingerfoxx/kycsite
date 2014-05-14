@@ -9,14 +9,26 @@
     <!-- Use title if it's in the page YAML frontmatter -->
     <title><%= current_page.data.title || "The Middleman" %></title>
     
-    <%= stylesheet_link_tag "normalize", "all" %>
+    <%= stylesheet_link_tag "normalize", "all", "base", "layout", "skeleton" %>
     <%= javascript_include_tag  "all" %>
   </head>
   
   <body class="<%= page_classes %>">
-  		<div class="word">
-  			Testing
-  		</div>
+  	<div class="container">
+  	
+		<div class="sixteen columns">  	
+		  		<div class="word">
+		  			Testing
+		  		</div>
+		  		
+		  		<div class="word2">
+		  			Testing 2
+		  		</div>
+		 </div>		
+  		
+  	</div>
+  		
     <%= yield %>
+    
   </body>
 </html>
