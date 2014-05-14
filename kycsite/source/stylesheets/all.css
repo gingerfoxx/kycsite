@@ -1,4 +1,31 @@
-.word{
+.welcome{
+	position: absolute;
+	z-index: 100;
+}
+
+.word, .word2{
 	color:red;
 	background-color: blue;
+	width: 100%;
+}
+
+
+.photo{
+	background-color:green;
+	height:1000px;
+	margin-top:50px;
+}
+
+.nav{
+	background-color:red;
+	height:50px;
+	width: 100%;
+	position: fixed;
+	top:0;
+	z-index: 200;
+}
+
+.about{
+	background-color: blue;
+	width: 100%;
 }
