@@ -2,6 +2,7 @@ body {
   font-size: 100%; //16px
   line-height: 1.3;
 
+/*
   @include breakpoint($media-lg) {
     font-size: 90%;
   }
@@ -13,6 +14,7 @@ body {
   @include breakpoint($media-sm) {
     font-size: 50%;
   }
+*/
 }
 
 //SECTION HEADER

@@ -1,6 +1,7 @@
 ###
 # Compass
 ###
+require 'breakpoint'
 
 # Change Compass configuration
 # compass_config do |config|
