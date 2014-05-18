@@ -3,11 +3,11 @@
 	z-index: 100;
 	text-align: center;
 	width: 100%;
+	margin-top: 200px;
 }
 
 .word{
 	width: 100%;
-	height:100px;
 	text-align: center;
 }
 
@@ -15,7 +15,7 @@
 .photo{
 	background-color:#4c889e;
 	height:700px;
-	margin-top:50px;
+
 }
 
 .about{
@@ -62,4 +62,20 @@
 .pricing{
 	height:250px;
 	background-color: white;
+}
+
+.map{
+	height:400px;
+	background-color: white;
+	
+}
+
+.info, .info2{
+	height: 200px;
+	background-color: white;
+	
+}
+
+.instagram{
+	height:150px;
 }
