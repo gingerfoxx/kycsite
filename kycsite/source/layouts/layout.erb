@@ -14,29 +14,32 @@
   </head>
   
   <body class="<%= page_classes %>">
-  
-  <%= partial "nav" %>
+ 
   <%= yield %>
   
   	<div class="container">
+  	<%= partial "nav" %>
   		<div class="photo">photo</div>
   		
-			<div class="fourteen columns">
-					<div class="about">
-			  			about section
-			  		</div>
+			<div class="sixteen columns">
+				<div class="about">
+		  			about section
+		  		</div>
+			</div>	
 			  		
-				<div class="twelve column">
-					<div class="word">
-			  			Testing
-			  		</div>
-			  		
-			  		<div class="word2">
-			  			Testing 2
-			  		</div>
-				</div>	
+			<div class="sixteen columns">
+				<div class="word">
+		  			PICK YOUR TOUR
+		  		</div>
+			</div>
+			
+			<div class="eight column">	
+		  		<div class="word2">
+		  			Testing 2
+		  		</div>
+			</div>	
 
-			</div>		
+	
   		
   	</div>
   		
