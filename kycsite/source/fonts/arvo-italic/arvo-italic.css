@@ -1,0 +1,8 @@
+@font-face {
+    font-family: 'ArvoItalic';
+    src: url('arvo-italic.eot');
+    src: url('arvo-italic.eot') format('embedded-opentype'),
+         url('arvo-italic.woff') format('woff'),
+         url('arvo-italic.ttf') format('truetype'),
+         url('arvo-italic.svg#ArvoItalic') format('svg');
+}
