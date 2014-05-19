@@ -49,11 +49,11 @@
     .container .fifteen.columns                 { width: 940px; }
     .container .sixteen.columns                 { width: 100%; }
 
-    .container .one-third.column                { width: 301px; margin-left: 0px; margin-right: 40px; margin-bottom: 20px; }
+    .container .one-third.column                { width: 290px; margin-left: 10px; margin-right: 10px;margin-bottom: 20px; }
     .container .two-thirds.column               { width: 662px; }
 
     /* Offsets */
-	.container .offset-by-one 							{ padding-left: 64px; }
+	.container .offset-by-one 							{ padding-left: 32px;  margin-bottom: 20px;}
 	.container .offset-by-two 							{ padding-left: 128px; }
 	.container .offset-by-three 						{ padding-left: 192px; }
 	.container .offset-by-four 							{ padding-left: 256px; }
