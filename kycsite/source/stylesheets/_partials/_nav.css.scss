@@ -1,25 +1,29 @@
 .nav{
-	background-color:white;
-	height:75px;
+	background-color: white;
+	height: 75px;
 	width: 100%;
 	position: fixed;
-	top:0;
+	top: 0;
 	z-index: 200;
 }
 
 .nav img {
-	margin: 10px;
+	margin-left: 10px;
+	margin-top: 8px;
 	}
 
-.nav a {
+.nav ul li a {
+	display: inline;
 	float: right;
 	margin-right: 25px;
-	margin-top: 25px;
+	margin-top: 0px;
 	font-family: 'Arvo', sans-serif;
 	color: black;
 	font-size: 16px;
 	text-decoration: none;
-}
+	}
+
+
 
 .nav a:hover {
 	color: rgb(215, 25, 33);
