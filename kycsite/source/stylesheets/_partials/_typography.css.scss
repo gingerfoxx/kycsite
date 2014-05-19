@@ -39,20 +39,23 @@ body {
 
 .infotext, .tourtext, .abouttext {
 	font-family:"Raleway",Arial,Sans-Serif;
-	font-weight: 400;	
+	font-weight: 400;
 }
 
 .infotext {
 	font-size: 1.14em; //16
 	line-height: 2.57em; //36
+	margin-bottom: 1.25em;
 }
 
 .tourtext {
 	font-size: 1em; //14
 	line-height: 1.7em; //24
+	margin-bottom: .8em;
 }
 
 .abouttext {
 	font-size: .85em; //12
 	line-height: 1.286em; //18
+	margin-bottom: .7em;
 }
