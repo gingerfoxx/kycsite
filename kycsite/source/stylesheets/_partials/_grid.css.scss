@@ -35,13 +35,13 @@
 .tour2{
 	background-image: url(../../images/kyctour_pdx101.png);
 	height:300px;
-	
+	width: 100%;
 }
 
 .tour3{
 	background-image: url(../../images/kyctour_diypdx.png);
 	height:300px;
-
+	width: 100%;
 }
 
 .wrapper {
@@ -54,7 +54,7 @@
 }
 
 .color-two{
-	background-image: url(../../images/kycpattern.jpg);
+	background-color: #c266b0;
 	margin-top: 50px;
 	padding-bottom: 50px;
 	
@@ -98,6 +98,7 @@
 
 .footer{
 	height:150px;
-	background-image: url(../../images/stardust.png);
+	background-color: blue;	
 	
 }
+
