@@ -103,13 +103,14 @@
 	
 	h3 {
 		font-size: 1.57em;
-		line-height: 2.857em;
+		line-height: 2em;
+		margin-top: 1.4em;
 		margin-bottom: 1.4em;
 	}
 	
 	h5 {
 		font-size: 1.43em;
-		line-height: 2.14;
+		line-height: 2em;
 		margin-bottom: 1em;
 	}
 
