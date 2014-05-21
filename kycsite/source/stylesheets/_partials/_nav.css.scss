@@ -1,4 +1,4 @@
-.nav{
+.nav {
 	background-color: white;
 	height: 75px;
 	width: 100%;
@@ -9,8 +9,21 @@
 	img {
 		margin-left: 10px;
 		margin-top: 8px;
+		z-index: 300;
 	}
 	
+}
+
+.banner {
+	position: fixed;
+	z-index: -1;
+	
+	p {
+		z-index:200;
+		margin-left: 30px;
+		margin-top: -80px;
+		
+	}
 }
 	
 nav {
