@@ -119,6 +119,11 @@
 		line-height: 2em;
 		margin-bottom: 1em;
 	}
+	
+	li {
+		font-family:"Arvo",Georgia,Serif;
+		font-weight: 400;
+	}
 
 
 	p { margin: 0 0 20px 0; }
