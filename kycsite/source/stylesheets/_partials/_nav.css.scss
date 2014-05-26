@@ -21,8 +21,7 @@
 	p {
 		z-index:200;
 		margin-left: 10px;
-		margin-top: -95px;
-		
+		margin-top: -95px;	
 	}
 }
 	
@@ -47,17 +46,32 @@ nav {
 	}	
 }
 
-.buyticketsbutton {
-	padding: 10px 22px;
+.navbutton {
+	background-image: -webkit-linear-gradient(top, rgba(215,25,35,1) 0%,rgba(215,25,35,1) 100%);
+	background-image:    -moz-linear-gradient(top, rgba(215,25,35,1) 0%,rgba(215,25,35,1) 100%);
+	background-image:     -ms-linear-gradient(top, rgba(215,25,35,1) 0%,rgba(215,25,35,1) 100%);
+	background-image:      -o-linear-gradient(top, rgba(215,25,35,1) 0%,rgba(215,25,35,1) 100%);
+	background-image:         linear-gradient(top, rgba(215,25,35,1) 0%,rgba(215,25,35,1) 100%);
+   	-webkit-border-radius: 3px;
+       -moz-border-radius: 3px;
+	        border-radius: 3px;
+	padding: 10px;
 	color: white;
-	margin-top: -10px;
+	margin-top: -20px;
 	width: 130px;
-	height: 18px;
-	background-color: $red;
-	font-size: 18px;
-	
-	&:hover {
-		color: white;
-		background-color:  #d57070;
-	}
+	display: inline-block;
+	text-decoration: none;
+}
+
+.navbutton:hover {
+   background-image: -webkit-linear-gradient(top, rgba(255,54,67,1) 0%,rgba(215,25,35,1) 100%);
+   background-image:    -moz-linear-gradient(top, rgba(255,54,67,1) 0%,rgba(215,25,35,1) 100%);
+   background-image:     -ms-linear-gradient(top, rgba(255,54,67,1) 0%,rgba(215,25,35,1) 100%);
+   background-image:      -o-linear-gradient(top, rgba(255,54,67,1) 0%,rgba(215,25,35,1) 100%);
+   background-image:         linear-gradient(top, rgba(255,54,67,1) 0%,rgba(215,25,35,1) 100%);
+   -webkit-box-shadow: none;
+      -moz-box-shadow: none;
+           box-shadow: none;
+   text-decoration: none;
+   color: white;
 }
