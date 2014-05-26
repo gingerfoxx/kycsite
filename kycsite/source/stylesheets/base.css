@@ -128,7 +128,7 @@
 		font-size: 1em;
 	}
 	
-	.infotext, .tourtext, .abouttext {
+	.infotext, .tourtext, .abouttext, li {
 		font-family:"Raleway",Arial,Sans-Serif;
 		font-weight: 400;
 	}
@@ -145,7 +145,7 @@
 		margin-bottom: .8em;
 	}
 	
-	.abouttext {
+	.abouttext, li {
 		font-size: .85em;
 		line-height: 1.286em;
 		margin-bottom: .7em;
@@ -162,11 +162,6 @@
 	.bold {
 		font-family:"Raleway",Arial,Sans-Serif;
 		font-weight: 700;
-	}
-
-	li {
-		font-family:"Arvo",Georgia,Serif;
-		font-weight: 400;
 	}
 
 	p, strong, em, span {
