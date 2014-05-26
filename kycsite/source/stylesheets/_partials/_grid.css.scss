@@ -29,7 +29,7 @@
 }
 
 .color-one{
-	background-color: red;
+	background-color: $red;
 	height:150px;
 }
 
@@ -41,12 +41,7 @@
 	
 }
 
-.calendar{
-	height:250px;
-	background-color: white;
-}
-
-.pricing{
+.calendar, .pricing{
 	height:250px;
 	background-color: white;
 }
