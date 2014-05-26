@@ -1,5 +1,6 @@
 .tour1, .tour2, .tour3 {
 	width: 100%;
+	height:300px;
 	
 	@include breakpoint ($full-size) {
 		height:300px;
@@ -14,15 +15,18 @@
 }
 
 .tour1{
-	background-image: url(/images/KYCmultipdxsprite.jpg);	
+	background-image: url(/images/KYCmultipdxsprite.jpg);
+	background-size: 100%;
 }
 
 .tour2{
 	background-image: url(/images/KYCpdx101sprite.jpg);
+	background-size:100%;
 }
 
 .tour3{
 	background-image: url(/images/KYCdiypdxsprite.jpg);
+	background-size: 100%;
 }
 
 .diy{
