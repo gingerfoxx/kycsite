@@ -12,6 +12,10 @@
 	 @include breakpoint($mobile-landscape) {
 		 height:100px;
 	}
+	
+	@include breakpoint($mobile-portrait) {
+		height:100px;
+	}
 }
 
 .tour1{
