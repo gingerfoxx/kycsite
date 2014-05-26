@@ -35,54 +35,40 @@
 
 /* #Headers
 ================================================== */
-	h1, h2, h3, h4 {
+	h1, h2, h3, h5 {
 		font-family:"Arvo",Georgia,Serif;
 		font-weight: 700;	
 	}
 	
-	h5, h6 {
+	h4, h6 {
 		font-family:"Arvo",Georgia,Serif;
 		font-weight: 400;
-		font-style: italic;
 	}
 	
 	h1 {
-		font-size: 3em;
+		font-size: 4.4em;
 		margin-bottom: 1em;
 	}
 	
 	h2 {
-		font-size: 4.4em;
-		margin-bottom: 1em;
+		font-size: 3.43em;
+		margin-bottom: .65em;
 	}	
 	
 	h3 {
-		font-size: 3.43em;
-		margin-bottom: .65em;
+		font-size: 3em;
+		margin-bottom: 1em;
 	}
 
 	h4 {
-		font-size: 1.286em;
-		margin-bottom: 1em;
-	}
-	
-	h5 {
 		font-size: 1.57em;
-		line-height: 2em;
-		margin-top: 1.4em;
-		margin-bottom: 1.4em;
-	}
-
-	h6 {
-		font-size: 1.43em;
-		line-height: 2em;
-		margin-bottom: 1em;
-	}
-
-	.subtext {
-		font-size: 1.57em; //22
 		margin-top: 2em;
 		margin-bottom: 1.5em;
+	}
+
+	h5 {
+		font-size: 1.286em;
+		margin-bottom: 1em;
 	}
 
 	li {
@@ -118,25 +104,35 @@
 	  }
 	*/
 	}
-	
+
+	.quote1, .quote2 {
+		font-family:"Arvo",Georgia,Serif;
+		font-weight: 400;
+		font-style: italic;
+	}
+
+	.quote1 {
+		font-size: 1.57em;
+		line-height: 2em;
+		margin-top: 1.4em;
+		margin-bottom: 1.4em;
+	}
+
+	.quote2 {
+		font-size: 1.43em;
+		line-height: 2em;
+		margin-bottom: 1em;
+	}
+
 	.buttontext {
 		font-family:"Arvo",Georgia,Serif;
 		font-weight: 700;
 		font-size: 1em;
 	}
 	
-	.subtext, .navtext {
+	.navtext {
 		font-family:"Arvo",Georgia,Serif;
 		font-weight: 400;
-	}
-	
-	.subtext {
-		font-size: 1.57em;
-		margin-top: 2em;
-		margin-bottom: 1.5em;
-	}
-	
-	.navtext {
 		font-size: 1em;
 	}
 	
