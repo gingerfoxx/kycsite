@@ -25,7 +25,11 @@
 	@include breakpoint($mobile-portrait) {
 		background-repeat: no-repeat;
 		background-position: 16% 16%;
-		}
+	}
+	
+	@include breakpoint($mobile-landscape) {
+		background-position: 19% 19%;
+	}	
 }
 
 .tour2{
@@ -36,6 +40,10 @@
 		background-repeat: no-repeat;
 		background-position: 16% 16%;
 	}
+	
+	@include breakpoint($mobile-landscape) {
+		background-position: 19% 19%;
+	}
 }
 
 .tour3{
@@ -45,6 +53,10 @@
 	@include breakpoint($mobile-portrait) {
 		background-repeat: no-repeat;
 		background-position: 16% 16%;
+	}
+	
+	@include breakpoint($mobile-landscape) {
+		background-position: 19% 19%;
 	}
 }
 
