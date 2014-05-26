@@ -3,9 +3,12 @@
 	
 	@include breakpoint ($full-size) {
 		height:300px;
-	}	
-	
+	}
 	 @include breakpoint($tablet-size) {
+		 height:236px;
+	}
+	
+	 @include breakpoint($mobile-landscape) {
 		 height:100px;
 	}
 }
