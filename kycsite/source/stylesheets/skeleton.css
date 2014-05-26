@@ -133,7 +133,7 @@
 
     /* Note: Design for a width of 320px */
 
-    @media only screen and (max-width: 767px) {
+    @media only screen and (min-width:320px) and (max-width: 767px)  {
         .container { width: 330px; }
         .container .columns, { margin-left: 10px; margin-right: 10px;  }
         .container .column { margin: 0; }
@@ -186,7 +186,7 @@
     /* Note: Design for a width of 480px */
 
     @media only screen and (min-width: 480px) and (max-width: 767px) {
-        .container { width: 420px; }
+        .container { width: 330px; }
         .container .columns, { margin-left: 10px; margin-right: 10px;  }
         .container .column { margin: 0; }
 
