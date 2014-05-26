@@ -29,7 +29,6 @@
 nav {
 	a:hover {
 		color: $red;
-		text-decoration: underline;
 	}
 	
 	ul{
@@ -59,5 +58,6 @@ nav {
 	
 	&:hover {
 		color: white;
+		background-color:  #d57070;
 	}
 }
