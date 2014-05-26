@@ -71,24 +71,17 @@
 		margin-bottom: 1em;
 	}
 
-	li {
-		font-family:"Arvo",Georgia,Serif;
-		font-weight: 400;
-	}
-
 
 /* #Basic Styles
-================================================== */
+================================================== */	
 	body {
-
-	}
-	
-	body {
-	  font-size: 100%; //16px
-	  line-height: 1.3;
-	  color: #333;
-	  -webkit-font-smoothing: antialiased; /* Fix for webkit rendering */
-	  -webkit-text-size-adjust: 100%;
+		font-family:"Raleway",Arial,Sans-Serif;
+		font-weight: 400;
+		font-size: 100%; //16px
+		line-height: 1.3;
+		color: #333;
+		-webkit-font-smoothing: antialiased; /* Fix for webkit rendering */
+		-webkit-text-size-adjust: 100%;
 	
 	/*
 	  @include breakpoint($media-lg) {
@@ -172,6 +165,17 @@
 		font-weight: 700;
 	}
 
+	li {
+		font-family:"Arvo",Georgia,Serif;
+		font-weight: 400;
+	}
+
+	p, strong, em, span {
+		font-family:"Raleway",Arial,Sans-Serif;
+		font-weight: 400;		
+	}
+	
+	
 
 /* #Misc
 ================================================== */
