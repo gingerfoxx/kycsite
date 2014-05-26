@@ -1,6 +1,13 @@
 .tour1, .tour2, .tour3 {
-	height:300px;
-	width: 100%;	
+	width: 100%;
+	
+	@include breakpoint ($full-size) {
+		height:300px;
+	}	
+	
+	 @include breakpoint($tablet-size) {
+		 height:100px;
+	}
 }
 
 .tour1{
