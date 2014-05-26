@@ -47,12 +47,28 @@
 }
 
 .map{
-	height:400px;
+	height:100%;
+	
+		iframe{
+			@include breakpoint($tablet-size) {
+				width:492px;
+			}
+			
+			@include breakpoint($mobile-landscape) {
+				width: 420px;
+			}
+			
+			@include breakpoint($mobile-portrait) {
+				width: 280px;
+				height:200px;
+			}
+		}	
 	
 }
 
 .info, .info2{
 	height: 200px;
+	color:white;
 	
 }
 
