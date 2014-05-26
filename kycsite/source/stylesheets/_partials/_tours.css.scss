@@ -5,11 +5,11 @@
 	@include breakpoint ($full-size) {
 		height:300px;
 	}
-	 @include breakpoint($tablet-size) {
+	@include breakpoint($tablet-size) {
 		 height:236px;
 	}
 	
-	 @include breakpoint($mobile-landscape) {
+	@include breakpoint($mobile-landscape) {
 		 height:100px;
 	}
 	
@@ -21,16 +21,31 @@
 .tour1{
 	background-image: url(/images/KYCmultipdxsprite.jpg);
 	background-size: 100%;
+	
+	@include breakpoint($mobile-portrait) {
+		background-repeat: no-repeat;
+		background-position: 16% 16%;
+		}
 }
 
 .tour2{
 	background-image: url(/images/KYCpdx101sprite.jpg);
 	background-size:100%;
+	
+	@include breakpoint($mobile-portrait) {
+		background-repeat: no-repeat;
+		background-position: 16% 16%;
+	}
 }
 
 .tour3{
 	background-image: url(/images/KYCdiypdxsprite.jpg);
 	background-size: 100%;
+	
+	@include breakpoint($mobile-portrait) {
+		background-repeat: no-repeat;
+		background-position: 16% 16%;
+	}
 }
 
 .diy{
