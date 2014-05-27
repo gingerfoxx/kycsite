@@ -19,6 +19,7 @@
 }
 
 .tour1{
+	cursor: pointer;
 	background-image: url(/img/KYCmultipdxsprite.jpg);
 	background-size: 100%;
 	
@@ -33,6 +34,7 @@
 }
 
 .tour2{
+	cursor: pointer;
 	background-image: url(/img/KYCpdx101sprite.jpg);
 	background-size:100%;
 	
@@ -47,6 +49,7 @@
 }
 
 .tour3{
+	cursor: pointer;
 	background-image: url(/img/KYCdiypdxsprite.jpg);
 	background-size: 100%;
 	
@@ -60,9 +63,7 @@
 	}
 }
 
-.diy{
-	height:100%;
-}
+
 
 .bullets{
 	margin-left:20px;
@@ -108,6 +109,10 @@
 			}
 	
 	}
+}
+
+.diy{
+	height:100%;
 }
 
 .portland {
