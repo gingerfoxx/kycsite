@@ -10,8 +10,38 @@
 		margin-left: 10px;
 		margin-top: 8px;
 		z-index: 300;
+		}
+	
+	
+}
+
+.mainlogo{
+	@include breakpoint($mobile-portrait) {
+		display: none;
 	}
 	
+	@include breakpoint($mobile-landscape) {
+		display: none;
+	}
+}
+
+.secondlogo{
+	z-index: 300;
+	@include breakpoint($tablet-size){
+		display: none;
+	}
+	
+	@include breakpoint($full-size){}
+		display:none;
+		
+	@include breakpoint($mobile-landscape) {
+		display: inline;
+	}	
+		
+	@include breakpoint($mobile-portrait) {
+		display: inline;
+	}	
+		
 }
 
 .banner {
@@ -61,6 +91,14 @@ nav {
 	width: 130px;
 	display: inline-block;
 	text-decoration: none;
+	
+		@include breakpoint($mobile-landscape) {
+			display: none;
+		}	
+		
+		@include breakpoint($mobile-portrait) {
+			display: none;
+		}
 }
 
 .navbutton:hover {
@@ -75,3 +113,52 @@ nav {
    text-decoration: none;
    color: white;
 }
+
+.response{
+		float:right;
+		z-index: 300;
+		width:100%;
+		height:50px;
+	
+}
+
+.menuicon{
+	float:right;
+	z-index: 300;
+	margin-right: 20px;
+}
+
+@media only screen and (max-width : 640px) {
+
+
+	#menuicon {
+
+		display:inline-block;
+
+	}
+
+	nav ul, nav:active ul { 
+
+		position: fixed;
+		padding: 20px;
+		background: #fff;
+		right: 20px;
+		top: 60px;
+
+	}
+
+	nav li {
+
+		text-align: center;
+		width: 100%;
+		padding: 10px 0;
+		margin: 0;
+
+	}
+
+	nav:hover ul {
+
+		display: block;
+
+	}
+	}
