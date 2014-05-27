@@ -16,7 +16,7 @@
 }
 
 .photo{
-	background-image: url(/img/headerimg.jpg);
+	background-image: url('/img/headerimg.jpg');
 	background-size:100%;
 	width:100%;
 	height:700px;
@@ -38,7 +38,7 @@
 }
 
 .color-two{
-	background-image: url(/img/kycpattern.jpg);
+	background-image: url('/img/kycpattern.jpg');
 	margin-top: 50px;
 	padding-bottom: 50px;
 	height:400px;
@@ -95,14 +95,32 @@
 
 .footer{
 	height:150px;
-	background-image: url(/img/stardust.png);
+	background-image: url('/img/stardust.png');
 }
 
 .social{
-	background-image: url(/img/socialmedia.png);
+	background-image: url('/img/socialmedia.png') 0 0;
 	height: 40px;
 	width: 40px;
 	display: block;
 	float: left;
-	margin-right: 20px;
+	margin-right: 20px;	
 }
+
+/*
+.facebookbutton{
+		
+}
+
+.twitterbutton{
+	
+}
+
+.instagrambutton{
+	
+}
+
+.vimeobutton{
+	
+}
+*/
