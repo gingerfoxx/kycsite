@@ -124,14 +124,14 @@ nav {
 
 .menuicon{
 	float:right;
-	z-index: 300;
+	z-index: 00;
 	margin-right: 20px;
 }
 
 @media only screen and (max-width : 640px) {
 
 
-	#menuicon {
+	.menuicon {
 
 		display:inline-block;
 
@@ -143,7 +143,7 @@ nav {
 		padding: 20px;
 		background: #fff;
 		right: 20px;
-		top: 60px;
+		top: 80px;
 
 	}
 
