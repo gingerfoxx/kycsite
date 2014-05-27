@@ -19,7 +19,7 @@
 }
 
 .tour1{
-	background-image: url(/images/KYCmultipdxsprite.jpg);
+	background-image: url(/img/KYCmultipdxsprite.jpg);
 	background-size: 100%;
 	
 	@include breakpoint($mobile-portrait) {
@@ -33,7 +33,7 @@
 }
 
 .tour2{
-	background-image: url(/images/KYCpdx101sprite.jpg);
+	background-image: url(/img/KYCpdx101sprite.jpg);
 	background-size:100%;
 	
 	@include breakpoint($mobile-portrait) {
@@ -47,7 +47,7 @@
 }
 
 .tour3{
-	background-image: url(/images/KYCdiypdxsprite.jpg);
+	background-image: url(/img/KYCdiypdxsprite.jpg);
 	background-size: 100%;
 	
 	@include breakpoint($mobile-portrait) {
