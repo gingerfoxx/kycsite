@@ -52,7 +52,7 @@
 	
 	h2 {
 		font-size: 3.75em;
-		margin-bottom: .35em;
+		margin-bottom: .25em;
 	}	
 	
 	h3 {
@@ -63,7 +63,6 @@
 	h4 {
 		font-size: 1.57em;
 		margin-top: 1em;
-		margin-bottom: .5em;
 	}
 
 	h5 {
@@ -113,6 +112,7 @@
 	.quote2 {
 		font-size: 1.43em;
 		line-height: 2em;
+		margin-top: -.5em;
 		margin-bottom: 1em;
 	}
 
