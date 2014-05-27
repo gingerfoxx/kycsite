@@ -51,7 +51,14 @@
 .tour3{
 	cursor: pointer;
 	background-image: url('/img/KYCdiypdxsprite.jpg');
-	background-size: 100%;
+	width: 300px;
+	height: 300px;
+	top: 0px;
+	left: 0px;
+	
+
+	
+	
 	
 	@include breakpoint($mobile-portrait) {
 		background-repeat: no-repeat;
