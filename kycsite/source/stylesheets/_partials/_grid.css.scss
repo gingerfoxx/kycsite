@@ -93,13 +93,13 @@
 	padding: 10px;
 }
 
-.footer{
+.footer {
 	height:150px;
 	background-image: url('/img/stardust.png');
 }
 
-.social{
-	background-image: url('/img/socialmedia.png') 0 0;
+.social {
+	background-image: url('/img/socialmedia.png');
 	height: 40px;
 	width: 40px;
 	display: block;
@@ -107,20 +107,22 @@
 	margin-right: 20px;	
 }
 
-/*
-.facebookbutton{
-		
+.facebookbutton a:hover {
+	background-position: 0 -40px;
+}
+	
+.twitterbutton {
+	background-position: 40px 0;
 }
 
-.twitterbutton{
-	
+.twitterbutton a:hover {
+	background-position: 40px -40px;
 }
 
-.instagrambutton{
-	
+.instagrambutton {
+	background-position: 80px 0;
 }
 
-.vimeobutton{
-	
+.vimeobutton {
+	background-position: 120px 0;	
 }
-*/
