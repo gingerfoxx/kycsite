@@ -49,14 +49,18 @@
 		font-size: 4.4em;
 		line-height: 1.25em;
 		
-		 @include breakpoint($tablet-size) {
-			 font-size:3em;
+		 @include breakpoint($mobile-portrait) {
+			 font-size:2.8em;
 		}
 	}
 	
 	h2 {
 		font-size: 3.75em;
 		margin-bottom: .25em;
+		
+		@include breakpoint($mobile-portrait) {
+			 font-size:2.6em;
+		}
 	}	
 	
 	h3 {
@@ -67,6 +71,10 @@
 	h4 {
 		font-size: 1.57em;
 		margin-top: 1em;
+		
+		@include breakpoint($mobile-portrait) {
+			 font-size:1.2em;
+		}
 	}
 
 	h5 {
@@ -98,6 +106,10 @@
 		font-size: 1.57em;
 		line-height: 2em;
 		margin-bottom: 1em;
+		
+		@include breakpoint($mobile-portrait) {
+			 font-size:1em;
+		}
 	}
 
 	.quote2 {
@@ -105,6 +117,10 @@
 		line-height: 2em;
 		margin-top: -.5em;
 		margin-bottom: 1em;
+		
+		@include breakpoint($mobile-portrait) {
+			 font-size:1em;
+		}
 	}
 
 	.buttontext {
