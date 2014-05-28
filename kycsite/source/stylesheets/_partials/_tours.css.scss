@@ -20,7 +20,7 @@
 
 .tour1{
 	cursor: pointer;
-	background-image: url('/img/KYCmultipdxsprite.jpg');
+	background-image: image-url('/img/KYCmultipdxsprite.jpg');
 	background-size: 100%;
 	
 	@include breakpoint($mobile-portrait) {
@@ -35,7 +35,7 @@
 
 .tour2{
 	cursor: pointer;
-	background-image: url('/img/KYCpdx101sprite.jpg');
+	background-image: image-url('/img/KYCpdx101sprite.jpg');
 	background-size:100%;
 	
 	@include breakpoint($mobile-portrait) {
@@ -50,7 +50,7 @@
 
 .tour3{
 	cursor: pointer;
-	background-image: url('/img/KYCdiypdxsprite.jpg');
+	background-image: image-url('/img/KYCdiypdxsprite.jpg');
 	background-size: 100%;
 	
 	@include breakpoint($mobile-portrait) {
