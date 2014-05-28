@@ -1,4 +1,3 @@
-/*
 /* Preload images */
 body:after {
   content: url('/img/close.png') url('/img/loading.gif') url('/img/prev.png') url('/img/next.png');
@@ -209,4 +208,3 @@ body:after {
   filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=100);
   opacity: 1;
 }
-*/
