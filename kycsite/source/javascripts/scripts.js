@@ -15,12 +15,6 @@ $(function() {
     
     
     
-    
-    <!-- BANNER SLIDE -->
-    
-    $(".banner").hover(function () {
-    $(".bannerslide").toggleClass("slow");
-});
 
 
 

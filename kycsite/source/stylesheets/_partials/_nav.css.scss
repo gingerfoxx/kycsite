@@ -6,7 +6,7 @@
 	top: 0;
 	z-index: 200;
 		
-	img {
+	.mainlogo {
 		margin-left: 10px;
 		margin-top: 8px;
 		z-index: 300;		
@@ -44,33 +44,48 @@
 		
 }
 
+
+
 .banner {
-	position: fixed;
-	top: -100px;
-	left: 0px;
-	z-index: -1;
-	
-		.bannerslide {
-			position: fixed;
-			top: 0px;
-			left: 0px;
-			z-index: -1;
+  position: fixed;
+  top: -170px;
+  left: 0px;
+  z-index: -100;
+
+  -webkit-transition: all .5s ease;
+  -moz-transition: all .5s ease;
+  -ms-transition: all .5s ease;
+  -o-transition: all .5s ease;
+  
+  			
+			
+		p {
+		z-index: 1000;
+		margin-left: 10px;
+		margin-top: -95px;	
+		text-align: center;
+		
+		a {
+			text-decoration: none;
 			}
-	
-			a {
-				text-decoration: none;
-				
-				
-				p {
-			z-index:200;
-			margin-left: 10px;
-			margin-top: -95px;	
-				}
-				
-			}
-	
-	
+			
+		}
+
+
 }
+
+.banner:hover {
+	position: fixed;
+	 top: 0px;
+	 left:0px;
+	 z-index: -100;
+	 
+}
+
+
+
+
+
 	
 nav {
 	a:hover {
