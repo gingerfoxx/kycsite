@@ -48,6 +48,10 @@
 	h1 {
 		font-size: 4.4em;
 		line-height: 1.25em;
+		
+		 @include breakpoint($tablet-size) {
+			 font-size:3em;
+		}
 	}
 	
 	h2 {
@@ -82,19 +86,6 @@
 		-webkit-font-smoothing: antialiased; /* Fix for webkit rendering */
 		-webkit-text-size-adjust: 100%;
 	
-	/*
-	  @include breakpoint($media-lg) {
-	    font-size: 90%;
-	  }
-	
-	  @include breakpoint($media-md) {
-	    font-size: 70%;
-	  }
-	
-	  @include breakpoint($media-sm) {
-	    font-size: 50%;
-	  }
-	*/
 	}
 
 	.quote1, .quote2 {
