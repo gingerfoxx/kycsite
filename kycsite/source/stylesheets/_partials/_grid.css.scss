@@ -38,6 +38,23 @@
 		}
 }
 
+.photo2{
+	background-image: image-url('/img/headerimg.jpg');
+	background-size:100%;
+	width:100%;
+	height:700px;
+	background-position: center top;
+	
+	
+		@include breakpoint($mobile-portrait) {
+			 height:400px;
+		}
+		
+		@include breakpoint($mobile-landscape) {
+		 	height:550px;
+		}
+}
+
 .about{
 	text-align: center;
 
