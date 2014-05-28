@@ -1,7 +1,7 @@
 $(function() {
 
         
-        <!-- INSTAFEED -->
+       // INSTAFEED
         
        var feed = new Instafeed({
         get: 'tagged',
