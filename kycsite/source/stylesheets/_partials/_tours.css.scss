@@ -36,6 +36,18 @@
 .tour1:hover{
 	background-position: 0px -300px;
 	background-repeat: no-repeat;
+	
+	@include breakpoint($tablet-size) {
+		background-position: 0px -236px;
+	}
+	
+	@include breakpoint($mobile-landscape) {
+		background-position: 0px -560px;
+	}
+	
+	@include breakpoint($mobile-portrait) {
+		background-position: 0px -354px;
+	}	
 }
 
 .tour2{
@@ -56,6 +68,18 @@
 .tour2:hover{
 	background-position: 0px -300px;
 	background-repeat: no-repeat;
+	
+	@include breakpoint($tablet-size) {
+			background-position: 0px -236px;
+	}
+
+	@include breakpoint($mobile-landscape) {
+		background-position: 0px -560px;
+	}	
+	
+	@include breakpoint($mobile-portrait) {
+		background-position: 0px -354px;
+	}	
 }
 
 .tour3{
@@ -76,6 +100,18 @@
 .tour3:hover{
 	background-position: 0px -300px;
 	background-repeat: no-repeat;
+	
+	@include breakpoint($tablet-size) {
+		background-position: 0px -236px;
+	}
+	
+	@include breakpoint($mobile-landscape) {
+		background-position: 0px -560px;
+	}
+	
+	@include breakpoint($mobile-portrait) {
+		background-position: 0px -354px;
+	}		
 }
 
 
