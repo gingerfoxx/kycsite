@@ -4,10 +4,11 @@
 	text-align: center;
 	width: 100%;
 	position: absolute;
-	margin-top: 20%;
+
+
 	
 	h1{
-		margin-top: 30px;
+		margin-top: 200px;
 	}
 }
 
@@ -20,13 +21,25 @@
 	margin-top: 35px;
 }
 
-
 .photo{
-	background-image: image-url('/img/headerimg.jpg');
-	background-size:100%;
-	width:100%;
-	height:700px;
-	background-position: center top;
+	height: 750px;
+    left: 0;
+   
+    top: 0;
+    width: 100%;
+}
+
+.bgphoto{
+	background-image: image-url('/img/homepageimg.jpg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: 10;
 	
 	
 		@include breakpoint($mobile-portrait) {
@@ -40,10 +53,13 @@
 
 .photo2{
 	background-image: image-url('/img/headerimg.jpg');
-	background-size:100%;
-	width:100%;
-	height:700px;
-	background-position: center top;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 90%;
+    left: 0;
+    top: 0;
+    width: 100%;
 	
 	
 		@include breakpoint($mobile-portrait) {
@@ -64,6 +80,7 @@
 .wrapper {
 	padding-top: 20px;
 	width: 100%;
+	
 }
 
 .color-one{
