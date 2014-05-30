@@ -62,6 +62,22 @@ $('.tour3').click(function() {
 });
 
 
+// BANNER HOVER
+
+
+/*
+$('.mainlogo').hover(function(){
+$('.banner').slideDown();
+
+}); 
+*/
+	$('.mainlogo').hover(function(){
+     $('.banner').animate({ "top": "+=200px" }, "fast" );
+     },
+    function () {
+        $('.banner').animate({ "top": "-=200px" }, "fast" );
+
+    });
 
 
 
