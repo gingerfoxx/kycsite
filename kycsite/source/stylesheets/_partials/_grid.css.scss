@@ -133,6 +133,22 @@
   	width: 100%;
 	height: 200px;
     overflow: hidden;
+    
+    	@include breakpoint($mobile-landscape) {
+			width:420px;
+			height:100px;
+			overflow:hidden;
+			margin-left: -10px;
+
+		}
+		
+		@include breakpoint($mobile-portrait) {
+			width:300px;
+			height:90px;
+			overflow:hidden;
+		}
+		
+
   
 }
 
@@ -140,6 +156,34 @@
 	width: 141px;
 	height: 141px;
 	padding: 10px;
+	
+		@include breakpoint($tablet-size) {
+			width:100px;
+			height:100px;
+		}
+		
+		@include breakpoint($mobile-landscape) {
+			width:80px;
+			height:80px;
+		}
+		
+		@include breakpoint($mobile-portrait) {
+			width: 60px;
+			height:60px;
+		}
+}
+
+.instagram{
+	height:200px;
+	
+		@include breakpoint($mobile-landscape) {
+			height:150px;
+		}
+		
+		@include breakpoint($mobile-portrait) {
+			height:120px;
+		}
+	
 }
 
 .footer {
@@ -147,11 +191,13 @@
 	background-image: image-url('/img/stardust.png');
 	
 		@include breakpoint($mobile-landscape) {
-			height:670px;
+			height:400px;
+			text-align: center;
 		}
 	
 		@include breakpoint($mobile-portrait) {
 			height:400px;
+			text-align: center;
 		}
 }
 
@@ -162,7 +208,9 @@
 	display: block;
 	float: left;
 	margin-right: 20px;	
+	
 }
+
 
 .facebookbutton a:hover {
 	background-position: 0 -40px;
