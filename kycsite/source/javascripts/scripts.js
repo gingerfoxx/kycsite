@@ -13,7 +13,23 @@ $(function() {
     feed.run();
     
     
+    // SCROLL TO
     
+    
+    $('.visituslink').click(function() {
+		$(window).scrollTo('#visitus', 1000);
+		/* $('visitus').addClass('.a:hover'); */	
+	});
+	
+    $('.schedulelink').click(function() {
+		$(window).scrollTo('#schedule', 1000);
+		/* $('visitus').addClass('.a:hover'); */	
+	});
+	
+	    $('.tourslink').click(function() {
+		$(window).scrollTo('#tours', 1000);
+		/* $('visitus').addClass('.a:hover'); */	
+	});
     
 
 
