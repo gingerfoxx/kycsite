@@ -71,13 +71,13 @@
 
 
 .bullets{
-	margin-left:20px;
 	margin-bottom: 40px;
 }
 
 .gallery{
 	width:100%;
 	height:100%;
+	margin-bottom: 20px;
 	
 		@include breakpoint($tablet-size) {
 			width:236px;
@@ -116,6 +116,12 @@
 			}
 	
 	}
+}
+
+.tourbuybutton{
+	width: 210px;
+	margin: 0 auto;
+	
 }
 
 .diy{
