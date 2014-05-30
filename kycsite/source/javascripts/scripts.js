@@ -64,6 +64,7 @@ $('.banner').slideDown();
 
 }); 
 */
+/*
 	$('.mainlogo').hover(function(){
      $('.banner').animate({"top": "+=200px" }, "fast" );
      },
@@ -71,6 +72,7 @@ $('.banner').slideDown();
         $('.banner').animate({ "top": "-=200px" }, "fast" );
 
     });
+*/
 
 
 

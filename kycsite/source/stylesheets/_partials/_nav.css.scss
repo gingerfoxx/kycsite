@@ -47,17 +47,18 @@
 
 
 .banner {
-  position: fixed;
-  top: -170px;
-  left: 10px;
-  z-index: 1;
-
-  -webkit-transition: all .5s ease;
-  -moz-transition: all .5s ease;
-  -ms-transition: all .5s ease;
-  -o-transition: all .5s ease;
-  transition-timing-function: linear;
-  
+	position: fixed;
+	top: -170px;
+	left: 10px;
+	z-index: 1;
+	width: 146px;
+	height: 287px;
+	-webkit-transition: all .5s linear ease;
+	-moz-transition:  .5s ease;
+	-ms-transition: all .5s ease;
+	-o-transition: all  .5s ease;
+	transition-timing-function: linear;
+	  
   			
 			
 		p {
@@ -74,13 +75,14 @@
 
 
 }
+/*
 
-.bannersize{
+.bannersize {
 	width:146;
 	height:287;
 }
+*/
 
-/*
 .banner:hover {
 	position: fixed;
 	 top: 20px;
@@ -88,7 +90,6 @@
 	 z-index: 1;
 	 
 }
-*/
 
 
 
