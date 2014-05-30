@@ -32,14 +32,7 @@ $(function() {
 	});
     
     
-    //BANNER SLIDE HOVER ON LOGO
 
-	
-/*
- $(mainlogo).hover(function() {
-		$();
-	});
-*/
 
 
 
@@ -72,10 +65,10 @@ $('.banner').slideDown();
 }); 
 */
 	$('.mainlogo').hover(function(){
-     $('.banner').animate({ "top": "+=200px" }, "fast" );
+     $('.banner').animate({ top: +=200px }, "fast" );
      },
     function () {
-        $('.banner').animate({ "top": "-=200px" }, "fast" );
+        $('.banner').animate({ top: -=200px }, "fast" );
 
     });
 
