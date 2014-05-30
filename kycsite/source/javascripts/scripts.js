@@ -43,5 +43,27 @@ $(function() {
 
 
 
+//TOUR INFO SLIDE
+
+
+$('.tour1').click(function() {
+	$('.multicultural').slideDown("slow");
+	$('.portland, .diycolumn').slideUp("fast");
+});
+
+$('.tour2').click(function() {
+	$('.portland').slideDown("slow");
+	$('.multicultural, .diycolumn').slideUp("fast");
+});
+
+$('.tour3').click(function() {
+	$('.diycolumn').slideDown("slow");
+	$('.portland, .multicultural').slideUp("fast");
+});
+
+
+
+
+
 });
     
