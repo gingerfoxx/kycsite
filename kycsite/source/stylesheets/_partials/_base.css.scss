@@ -110,6 +110,7 @@
 	.quote1 {
 		font-size: 1.57em;
 		line-height: 2em;
+		margin-top: .5em;
 		margin-bottom: 1em;
 		
 		@include breakpoint($mobile-portrait) {
@@ -162,9 +163,7 @@
 	.abouttext, li {
 		font-size: .85em;
 		line-height: 1.286em;
-		margin-top: 10px;
 		margin-bottom: .7em;
-		/* margin-left: 14px; */
 	}
 	
 	.white {
