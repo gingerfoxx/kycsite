@@ -18,7 +18,7 @@ $(function() {
     
     $('.visituslink').click(function() {
 		$(window).scrollTo('#visitus', 1000, {offset: -75});
-		
+		/* $('visitus').addClass('.a:hover'); */
 	});
 	
     $('.schedulelink').click(function() {
@@ -31,9 +31,15 @@ $(function() {
 		/* $('visitus').addClass('.a:hover'); */	
 	});
     
+    
+    //BANNER SLIDE HOVER ON LOGO
 
-
-
+	
+/*
+ $(mainlogo).hover(function() {
+		$();
+	});
+*/
 
 
 
