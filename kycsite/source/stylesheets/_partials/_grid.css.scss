@@ -235,9 +235,6 @@
 }
 
 .social {
-	background-image: image-url('/img/socialmedia.png');
-	height: 40px;
-	width: 40px;
 	display: block;
 	float: left;
 	margin-right: 20px;	
@@ -245,30 +242,61 @@
 }
 
 
-.facebookbutton a:hover {
-	background-position: 0 -40px;
-}
-	
-.twitterbutton {
-	background-position: 40px 0;
-}
-
-.twitterbutton a:hover {
-	background-position: 40px -40px;
+.facebookicon {
+	cursor: pointer;
+	background-image: image-url('/img/facebook.png');
+	background-size: 100%;
+	width: 40px;
+	height: 40px;
 }
 
-.instagrambutton {
-	background-position: 80px 0;
+.facebookicon:hover {
+	background-position: 0px -40px;
+	background-repeat: no-repeat;
 }
 
-.instagrambutton a:hover {
-	background-position: 80px -40px;
+
+.twittericon {
+	cursor: pointer;
+	background-image: image-url('/img/twitter.png');
+	background-size: 100%;
+	width: 40px;
+	height: 40px;
 }
 
-.vimeobutton {
-	background-position: 120px 0;	
+.twittericon:hover {
+	background-position: 0px -40px;
+	background-repeat: no-repeat;
 }
 
-.vimeobutton a:hover {
-	background-position: 120px -40px;
+.instagramicon {
+	cursor: pointer;
+	background-image: image-url('/img/instagram.png');
+	background-size: 100%;
+	width: 40px;
+	height: 40px;
 }
+
+.instagramicon:hover {
+	background-position: 0px -40px;
+	background-repeat: no-repeat;
+}
+
+.vimeoicon {
+	cursor: pointer;
+	background-image: image-url('/img/vimeo.png');
+	background-size: 100%;
+	width: 40px;
+	height: 40px;
+}
+
+.vimeoicon:hover {
+	background-position: 0px -40px;
+	background-repeat: no-repeat;
+}
+
+
+
+
+
+
