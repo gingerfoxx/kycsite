@@ -167,6 +167,24 @@
 .tourbuybutton{
 	width: 210px;
 	margin: 0 auto;
+
+}
+
+
+
+
+.hiddentourslink {
+	display: none;
+	
+	@media only screen and (max-width : 767px) {
+		 display: block;
+		 margin-top: 20px;
+		 text-align: center;
+	}
+
+	
+
+
 	
 }
 
@@ -189,7 +207,6 @@
 .diycolumn {
 	display: none;
 }
-
 
 
 
