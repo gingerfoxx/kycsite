@@ -62,19 +62,19 @@
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
-    height: 635px;
+    height: 620px;
     left: 0;
     top: 0;
     width: 100%;
 	
 	
 		@include breakpoint($mobile-portrait) {
-			 height:770px;
+			 height:750px;
 			 background-image: image-url('/img/stardust.png');
 		}
 		
 		@include breakpoint($mobile-landscape) {
-		 	height:980px;
+		 	height:945px;
 		}
 }
 
