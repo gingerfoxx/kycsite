@@ -48,18 +48,20 @@ $(function() {
 
 
 $('.tour1').click(function() {
-	$('.multicultural').slideToggle("slow");
-	$('.portland, .diycolumn').slideUp("fast");
+	$('.multicultural').slideToggle(1000);
+
 });
 
 $('.tour2').click(function() {
-	$('.portland').slideToggle("slow");
-	$('.multicultural, .diycolumn').slideUp("fast");
+	$('.portland').slideToggle(1000);
+
+
 });
 
 $('.tour3').click(function() {
-	$('.diycolumn').slideToggle("slow");
-	$('.portland, .multicultural').slideUp("fast");
+	$('.diycolumn').slideToggle(1000);
+
+
 });
 
 
@@ -69,6 +71,23 @@ $(function(){
 		$('#menu').slicknav();
 
 	});
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
 
 
 
