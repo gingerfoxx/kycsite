@@ -1,3 +1,4 @@
+console.log('before');
 $(function() {
 
         
@@ -74,3 +75,4 @@ $(function(){
 
     
 });
+console.log('after');
