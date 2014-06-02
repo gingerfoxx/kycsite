@@ -16,8 +16,12 @@
 		 	margin-top:260px;
 		}
 		
+		@include breakpoint($mobile-landscape) {
+		 	margin-top: 35%;
+		}
+		
 		@include breakpoint($mobile-portrait) {
-		 	margin-top:80px;
+		 	margin-top:25%;
 		}
 	}
 }
