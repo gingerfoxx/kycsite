@@ -53,30 +53,6 @@
 		}
 }
 
-/*
-.bgphoto{
-	background-image: image-url('/img/homepageimg.jpg');
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 100%;
-    left: 0;
-    position: absolute;
-    top: 0;
-    width: 100%;
-    z-index: 10;
-	
-	
-		@include breakpoint($mobile-portrait) {
-			 height:400px;
-		}
-		
-		@include breakpoint($mobile-landscape) {
-		 	height:550px;
-		}
-}
-*/
-
 .photo2{
 	background-image: image-url('/img/kycalley.jpg');
     background-position: center center;
@@ -89,12 +65,12 @@
 	
 	
 		@include breakpoint($mobile-portrait) {
-			 height:820px;
+			 height:770px;
 			 background-image: image-url('/img/stardust.png');
 		}
 		
 		@include breakpoint($mobile-landscape) {
-		 	height:1050px;
+		 	height:980px;
 		}
 }
 
