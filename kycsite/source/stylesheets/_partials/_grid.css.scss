@@ -2,13 +2,23 @@
 	
 	z-index: 100;
 	text-align: center;
+/*
 	width: 100%;
 	position: absolute;
+*/
 
 
 	
 	h1{
-		margin-top: 200px;
+		margin-top: 270px;
+		
+		@include breakpoint($tablet-size) {
+		 	margin-top:260px;
+		}
+		
+		@include breakpoint($mobile-portrait) {
+		 	margin-top:80px;
+		}
 	}
 }
 
@@ -23,13 +33,27 @@
 }
 
 .photo{
-	height: 750px;
+	background-image: image-url('/img/homepageimg.jpg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 740px;
     left: 0;
-   
     top: 0;
     width: 100%;
+	
+	
+		@include breakpoint($mobile-portrait) {
+			 height:380px;
+		
+		}
+		
+		@include breakpoint($mobile-landscape) {
+		 	height:750px;
+		}
 }
 
+/*
 .bgphoto{
 	background-image: image-url('/img/homepageimg.jpg');
     background-position: center center;
@@ -51,6 +75,7 @@
 		 	height:550px;
 		}
 }
+*/
 
 .photo2{
 	background-image: image-url('/img/kycalley.jpg');
