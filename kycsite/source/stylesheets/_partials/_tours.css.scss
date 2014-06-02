@@ -216,23 +216,23 @@
 
 .video {
 	margin-top: 30px;
+	margin-bottom:30px;
 	
 	iframe{
 		@include breakpoint($tablet-size) {
 			width:492px;
 			height:332px;
+			margin-bottom: 5px;
 		}
 		
 		@include breakpoint($mobile-landscape) {
 			width: 420px;
 			height: 280px;
-			margin-bottom: 30px;
 		}
 		
 		@include breakpoint($mobile-portrait) {
 			width: 280px;
 			height: 190px;
-			margin-bottom: 30px;
 		}
 	}
 	
