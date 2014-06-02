@@ -39,7 +39,8 @@
 }
 /* Button */
 .slicknav_btn {
-	margin: 15px 20px 6px;	
+	margin: 20px 20px 19px;	
+	padding: 10px;
 	text-decoration:none;		
 	-webkit-border-radius: 4px;
 	-moz-border-radius: 4px;
@@ -51,7 +52,9 @@
 /* Button Text */
 .slicknav_menu  .slicknav_menutxt {	
 	color: #FFF;
-	font-weight: bold;		
+	font-weight: bold;
+	font-family: arvo;
+	font-size: 0.85em;		
 
 }
 /* Button Lines */
@@ -67,7 +70,6 @@
 	color:#fff;
 	margin:0;	
 	padding:0;
-	font-size:0.875em;
 }
 .slicknav_nav, .slicknav_nav ul {
 	list-style: none;
@@ -88,23 +90,26 @@
     padding: 8px 20px;
     text-decoration: none;
     font-family: arvo;
-	top
 }
 .slicknav_nav .slicknav_item a {
 	padding:0;
 	margin:0;
 }
 .slicknav_nav .slicknav_item:hover {
+/*
 	-webkit-border-radius: 6px;
 	-moz-border-radius: 6px;
 	border-radius: 6px;
+*/
 	background:#ccc;
 	color:#fff;	
 }
 .slicknav_nav a:hover{
+/*
 	-webkit-border-radius: 6px;
 	-moz-border-radius: 6px;
 	border-radius: 6px;
+*/
 	background:#ccc;
 	color:#222;
 }
