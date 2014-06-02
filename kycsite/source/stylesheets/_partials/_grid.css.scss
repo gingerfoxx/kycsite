@@ -249,6 +249,21 @@
 	float: left;
 	margin-right: 17px;	
 	
+		@include breakpoint($mobile-landscape) {
+				float: none;
+				display: inline-block;
+				margin-left: auto;
+				margin-right: auto;
+		}
+	
+		@include breakpoint($mobile-portrait) {
+				float: none;
+				display: inline-block;
+				margin-left: auto;
+				margin-right: auto;
+		}
+
+	
 }
 
 
