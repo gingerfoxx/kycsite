@@ -15,6 +15,13 @@ $(function() {
     
     // SCROLL TO
     
+    $('.mainlogo').click(function () {
+			$('body,html').animate({
+				scrollTop: 0
+			}, 800);
+			return false;
+		});
+    
     
     $('.visituslink').click(function() {
 		$(window).scrollTo('#visitus', 1000, {offset: -75});
