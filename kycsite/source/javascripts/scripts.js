@@ -48,17 +48,17 @@ $(function() {
 
 
 $('.tour1').click(function() {
-	$('.multicultural').slideDown("slow");
+	$('.multicultural').slideToggle("slow");
 	$('.portland, .diycolumn').slideUp("fast");
 });
 
 $('.tour2').click(function() {
-	$('.portland').slideDown("slow");
+	$('.portland').slideToggle("slow");
 	$('.multicultural, .diycolumn').slideUp("fast");
 });
 
 $('.tour3').click(function() {
-	$('.diycolumn').slideDown("slow");
+	$('.diycolumn').slideToggle("slow");
 	$('.portland, .multicultural').slideUp("fast");
 });
 
