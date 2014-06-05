@@ -76,6 +76,8 @@
 	overflow:hidden;
 	background-color: white;
 	padding-top: 30px;
+	width:210px;
+	float:right;
 
 }
 .slicknav_nav ul {
