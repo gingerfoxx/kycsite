@@ -40,13 +40,13 @@ $(function() {
 	});
    
    		$('.tour1').click(function() {
-			$(window).scrollTo('#diytourclick', 1000, {offset: 475});
+			$(window).scrollTo('#multitourclick', 1000, {offset: 475});
 			/* $('visitus').addClass('.a:hover'); */	
 		});
 
 
 		$('.tour2').click(function() {
-			$(window).scrollTo('#diytourclick', 1000, {offset: 475});
+			$(window).scrollTo('#pdxtourclick', 1000, {offset: 475});
 			/* $('visitus').addClass('.a:hover'); */	
 		});
 
