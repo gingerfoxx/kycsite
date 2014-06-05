@@ -1,0 +1,8 @@
+@font-face {
+    font-family: 'ArvoBold';
+    src: url('arvo-bold.eot');
+    src: url('arvo-bold.eot') format('embedded-opentype'),
+         url('arvo-bold.woff') format('woff'),
+         url('arvo-bold.ttf') format('truetype'),
+         url('arvo-bold.svg#ArvoBold') format('svg');
+}

@@ -1,0 +1,8 @@
+@font-face {
+    font-family: 'ArvoRegular';
+    src: url('arvo-regular.eot');
+    src: url('arvo-regular.eot') format('embedded-opentype'),
+         url('arvo-regular.woff') format('woff'),
+         url('arvo-regular.ttf') format('truetype'),
+         url('arvo-regular.svg#ArvoRegular') format('svg');
+}
