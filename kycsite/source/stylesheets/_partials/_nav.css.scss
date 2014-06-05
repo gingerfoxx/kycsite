@@ -131,7 +131,8 @@ nav {
 		}	
 		
 		@include breakpoint($mobile-portrait) {
-			display: none;
+			width:100%;
+			text-align: center;
 		}
 }
 
