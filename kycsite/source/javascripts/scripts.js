@@ -61,15 +61,21 @@ $(function() {
 //Active Tours
 
 $('.tour1').click(function () {
- $(this).addClass('active');
+	$(this).addClass('multiactive');
+	$('.tour2').removeClass('pdxactive');
+	$('.tour3').removeClass('diyactive');
 });
 
-$('.tour2').click(function () {
- $(this).addClass('active');
+	$('.tour2').click(function () {
+	$(this).addClass('pdxactive');
+		$('.tour1').removeClass('multiactive');
+		$('.tour3').removeClass('diyactive');
 });
 
 $('.tour3').click(function () {
- $(this).addClass('active');
+ $(this).addClass('diyactive');
+ 	$('.tour1').removeClass('multiactive');
+	$('.tour2').removeClass('pdxactive');
 });
 
 

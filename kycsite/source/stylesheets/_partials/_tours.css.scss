@@ -1,6 +1,8 @@
-.active {
-border: 3px solid red;
-	}
+
+		
+	
+	
+	
 
 .tour1, .tour2, .tour3 {
 	width: 100%;
@@ -54,6 +56,13 @@ border: 3px solid red;
 	}	
 }
 
+.multiactive {
+	background-image: image-url('/img/KYCmultipdxsprite.jpg');
+	background-position: 0px -300px;
+	background-repeat: no-repeat;
+	}
+
+
 
 .tour2{
 	cursor: pointer;
@@ -87,6 +96,17 @@ border: 3px solid red;
 	}	
 }
 
+
+	
+.pdxactive {
+	background-image: image-url('/img/KYCpdx101sprite.jpg');
+	background-position: 0px -300px;
+	background-repeat: no-repeat;
+
+	}
+	
+
+
 .tour3{
 	cursor: pointer;
 	background-image: image-url('/img/KYCdiypdxsprite.jpg');
@@ -119,6 +139,15 @@ border: 3px solid red;
 	}		
 }
 
+
+
+	
+.diyactive {
+	background-image: image-url('/img/KYCdiypdxsprite.jpg');
+	background-position: 0px -300px;
+		background-repeat: no-repeat;
+
+	}
 
 
 .bullets{
