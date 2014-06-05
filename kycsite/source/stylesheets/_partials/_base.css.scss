@@ -165,15 +165,15 @@
 	}
 	
 	.abouttext1 {
-		font-size: .85em;
-		line-height: 1.286em;
-		margin-bottom: .7em;
+		font-size: 0.85em;
 			li{
-		margin-left:12px;
-		}
+			margin-bottom: 0.7em;
+			margin-left:12px;
+			line-height: 1.286em;
+			}
 	}
 	
-	.abouttext2, li {
+	.abouttext2 {
 	    font-size: 0.85em;
 	    line-height: 1.286em;
 	    margin-bottom: 0.7em;
