@@ -52,8 +52,8 @@
 /* Button Text */
 .slicknav_menu  .slicknav_menutxt {	
 	color: #FFF;
-	font-weight: bold;
-	font-family: arvo;
+	font-weight: 700;
+	font-family:'Arvo',Georgia,Serif;
 	font-size: 0.85em;		
 
 }
@@ -89,7 +89,7 @@
 .slicknav_nav a{
     padding: 8px 20px;
     text-decoration: none;
-    font-family: arvo;
+    font-family: 'Arvo';
 }
 .slicknav_nav .slicknav_item a {
 	padding:0;
