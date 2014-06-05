@@ -58,6 +58,22 @@ $(function() {
 		});
 		
 
+//Active Tours
+
+$('.tour1').click(function () {
+ $(this).addClass('active');
+});
+
+$('.tour2').click(function () {
+ $(this).addClass('active');
+});
+
+$('.tour3').click(function () {
+ $(this).addClass('active');
+});
+
+
+
 
 
 
