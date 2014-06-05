@@ -190,9 +190,19 @@
 		font-weight: 700;
 	}
 
-	p, strong, em, span {
+	p, span {
 		font-family:'Raleway',Arial,Sans-Serif;
-		font-weight: 400;		
+		font-weight: 400;
+	}
+	
+	strong {
+		font-family:'Raleway',Arial,Sans-Serif;
+		font-weight: 700;
+	} 
+		
+	em {
+		font-family:'Raleway',Arial,Sans-Serif;
+		font-style: italic;
 	}
 	
 
