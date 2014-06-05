@@ -347,7 +347,6 @@
 }
 
 .red1, .red2, .red3{
-	clear:both;
 	background-color: $red;
 	height:10px;
 	margin-top:0px;
@@ -355,6 +354,9 @@
 	display: none;
 }
 
+
+
+/*
 .arrow{
     border-left: 30px solid rgba(0, 0, 0, 0);
     border-right: 30px solid rgba(0, 0, 0, 0);
@@ -364,6 +366,7 @@
 	padding-top:10px;
     width: 0;
 }
+*/
 
 
 
