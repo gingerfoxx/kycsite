@@ -39,6 +39,11 @@ $(function() {
 		/* $('visitus').addClass('.a:hover'); */	
 	});
    
+		$('.tour3').click(function() {
+			$(window).scrollTo('#diytourclick', 1000, {offset: 475});
+			/* $('visitus').addClass('.a:hover'); */	
+		});
+
 
 
 
@@ -49,7 +54,6 @@ $(function() {
 $('.tour1').click(function() {
 	$('.multicultural, .red1').slideToggle(1000);
     $('.portland, .diycolumn').hide();
-    $(window).scrollTo('#toursclick', 1000, {offset: -75});
 });
 
 $('.tour2').click(function() {
