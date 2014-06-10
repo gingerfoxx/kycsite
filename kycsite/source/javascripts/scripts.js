@@ -39,23 +39,22 @@ $(function() {
 		/* $('visitus').addClass('.a:hover'); */	
 	});
    
-   		$('.tour1').click(function() {
-			$(window).scrollTo('#multitourclick', 1000, {offset: 475});
-			/* $('visitus').addClass('.a:hover'); */	
-		});
+//   		$('.tour1').click(function() {
+//			$(window).scrollTo('#multitourclick', 1000, {offset: 475});
+//			/* $('visitus').addClass('.a:hover'); */	
+//		});
 
-
-		$('.tour2').click(function() {
-			$(window).scrollTo('#pdxtourclick', 1000, {offset: 475});
+//		$('.tour2').click(function() {
+//			$(window).scrollTo('#pdxtourclick', 1000, {offset: 475});
 			/* $('visitus').addClass('.a:hover'); */	
-		});
+//		});
 
 
    
-		$('.tour3').click(function() {
-			$(window).scrollTo('#diytourclick', 1000, {offset: 475});
+//		$('.tour3').click(function() {
+//			$(window).scrollTo('#diytourclick', 1000, {offset: 475});
 			/* $('visitus').addClass('.a:hover'); */	
-		});
+//		});
 		
 
 //Active Tours
