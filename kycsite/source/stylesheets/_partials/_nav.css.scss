@@ -130,6 +130,8 @@ nav {
 			display: none;
 			width:100%;
 			text-align: left;
+			background-image:none;
+			color: #000;
 			
 		}
 	
@@ -137,12 +139,16 @@ nav {
 			display: none;
 			width:100%;
 			text-align: left;
+			background-image:none;
+			color: #000;
 			
 		}	
 		
 		@include breakpoint($mobile-portrait) {
 			width:100%;
 			text-align: left;
+			background-image:none;
+			color: #000;
 		}
 }
 
