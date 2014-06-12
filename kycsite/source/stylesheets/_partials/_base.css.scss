@@ -83,6 +83,14 @@
 		font-size: 1.28em;
 		margin-bottom: 0.8em;
 		padding-top: 1.2em;
+		
+		@include breakpoint($mobile-landscape) {
+			padding-top:0em;
+		}
+		
+		@include breakpoint($mobile-portrait) {
+			padding-top:0em;
+		}
 	}
 
 
