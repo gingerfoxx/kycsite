@@ -3,12 +3,12 @@
 	background-image: image-url('/img/stardust.png');
 	
 		@include breakpoint($mobile-landscape) {
-			height:400px;
+			height:360px;
 			text-align: center;
 		}
 	
 		@include breakpoint($mobile-portrait) {
-			height:400px;
+			height:360px;
 			text-align: center;
 		}
 }
