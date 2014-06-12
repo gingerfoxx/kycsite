@@ -94,7 +94,7 @@ nav {
 	}
 	
 	ul{
-	margin-top: -50px;
+	margin-top: -43px;
 	list-style: none;
 	
 		li a {
@@ -126,13 +126,23 @@ nav {
 	display: inline-block;
 	text-decoration: none;
 	
+		@include breakpoint($tablet-size) {
+			display: none;
+			width:100%;
+			text-align: left;
+			
+		}
+	
 		@include breakpoint($mobile-landscape) {
 			display: none;
+			width:100%;
+			text-align: left;
+			
 		}	
 		
 		@include breakpoint($mobile-portrait) {
 			width:100%;
-			text-align: center;
+			text-align: left;
 		}
 }
 
