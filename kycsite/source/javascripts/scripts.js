@@ -87,18 +87,18 @@ $('.tour3').click(function () {
 
 
 $('.tour1').click(function() {
-	$('.multicultural, .red1').slideToggle(1000);
+	$('.multicultural, .red1').fadeToggle(1000);
     $('.portland, .diycolumn').hide();
 });
 
 $('.tour2').click(function() {
-	$('.portland, .red2').slideToggle(1000);
+	$('.portland, .red2').fadeToggle(1000);
 	 $('.multicultural, .diycolumn').hide();
 
 });
 
 $('.tour3').click(function() {
-	$('.diycolumn, .red3').slideToggle(1000);
+	$('.diycolumn, .red3').fadeToggle(1000);
 	 $('.multicultural, .portland').hide();
 
 });
