@@ -87,20 +87,20 @@ $('.tour3').click(function () {
 
 
 $('.tour1').click(function() {
-	$('.portland, .diycolumn, .red1').fadeOut(0);
+	$('.portland, .diycolumn').fadeOut(0);
 	$('.multicultural').fadeIn(1000);
    // $('.portland, .diycolumn').hide();
 });
 
 $('.tour2').click(function() {
-	$('.multicultural, .diycolumn, .red2').fadeOut(0);
+	$('.multicultural, .diycolumn').fadeOut(0);
 	$('.portland').fadeIn(1000);
 	// $('.multicultural, .diycolumn').hide();
 
 });
 
 $('.tour3').click(function() {
-	$('.portland, .multicultural, .red3').fadeOut(0);
+	$('.portland, .multicultural').fadeOut(0);
 	$('.diycolumn').fadeIn(1000);
 	// $('.multicultural, .portland').hide();
 
