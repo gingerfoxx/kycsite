@@ -4,13 +4,7 @@
 	
 	z-index: 100;
 	text-align: center;
-/*
-	width: 100%;
-	position: absolute;
-*/
 
-
-	
 	h1{
 		margin-top: 270px;
 		
@@ -147,69 +141,3 @@
 .red{
 	color: $red;
 }
-
-/*
-.instatag {
-	background-image: url(/img/instatag.png);
-	height: 30px;
-	width: 30px;
-	padding-right: 15px;
-}
-*/
-
-#instafeed {
-  	width: 100%;
-	height: 200px;
-    overflow: hidden;
-    
-    	@include breakpoint($mobile-landscape) {
-			width:420px;
-			height:100px;
-			overflow:hidden;
-
-		}
-		
-		@include breakpoint($mobile-portrait) {
-			width:270px;
-			height:90px;
-			overflow:hidden;
-		}
-		
-
-  
-}
-
-#instafeed img {
-	width: 141px;
-	height: 141px;
-	padding: 10px;
-	
-		@include breakpoint($tablet-size) {
-			width:100px;
-			height:100px;
-		}
-		
-		@include breakpoint($mobile-landscape) {
-			width:80px;
-			height:80px;
-		}
-		
-		@include breakpoint($mobile-portrait) {
-			width: 60px;
-			height:60px;
-		}
-}
-
-.instagram{
-	height:200px;
-	
-		@include breakpoint($mobile-landscape) {
-			height:150px;
-		}
-		
-		@include breakpoint($mobile-portrait) {
-			height:120px;
-		}
-	
-}
-
