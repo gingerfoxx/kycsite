@@ -87,19 +87,22 @@ $('.tour3').click(function () {
 
 
 $('.tour1').click(function() {
-	$('.multicultural, .red1').fadeToggle(1000);
-    $('.portland, .diycolumn').hide();
+	$('.portland, .diycolumn, .red1').fadeOut(0);
+	$('.multicultural').fadeIn(1000);
+   // $('.portland, .diycolumn').hide();
 });
 
 $('.tour2').click(function() {
-	$('.portland, .red2').fadeToggle(1000);
-	 $('.multicultural, .diycolumn').hide();
+	$('.multicultural, .diycolumn, .red2').fadeOut(0);
+	$('.portland').fadeIn(1000);
+	// $('.multicultural, .diycolumn').hide();
 
 });
 
 $('.tour3').click(function() {
-	$('.diycolumn, .red3').fadeToggle(1000);
-	 $('.multicultural, .portland').hide();
+	$('.portland, .multicultural, .red3').fadeOut(0);
+	$('.diycolumn').fadeIn(1000);
+	// $('.multicultural, .portland').hide();
 
 });
 
